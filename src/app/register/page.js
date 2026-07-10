@@ -78,7 +78,7 @@ export default function Register() {
                 value={form.firstname}
                 onChange={handleChange}
                 className="w-full px-4 py-2.5 rounded-lg border border-gray-300 bg-gray-50 text-gray-900 focus:bg-white focus:ring-2 focus:ring-blue-500 focus:border-blue-500 transition-all duration-200 outline-none"
-                placeholder="สมชาย"
+                placeholder="ขวัญใจ"
                 required
               />
             </div>
@@ -93,7 +93,7 @@ export default function Register() {
                 value={form.lastname}
                 onChange={handleChange}
                 className="w-full px-4 py-2.5 rounded-lg border border-gray-300 bg-gray-50 text-gray-900 focus:bg-white focus:ring-2 focus:ring-blue-500 focus:border-blue-500 transition-all duration-200 outline-none"
-                placeholder="ใจดี"
+                placeholder="ความดีเลิศ"
                 required
               />
             </div>
@@ -110,7 +110,7 @@ export default function Register() {
               value={form.username}
               onChange={handleChange}
               className="w-full px-4 py-2.5 rounded-lg border border-gray-300 bg-gray-50 text-gray-900 focus:bg-white focus:ring-2 focus:ring-blue-500 focus:border-blue-500 transition-all duration-200 outline-none"
-              placeholder="somchai123"
+              placeholder="khawnjai2244"
               required
             />
           </div>
