@@ -2,7 +2,10 @@
 
 :root {
   --background: #ffffff;
-  --foreground: #171717;
+  --foreground: #1a1717;
+  /* เพิ่ม fallback ให้ตัวแปรฟอนต์เผื่อกรณีที่ยังไม่ได้โหลด Geist */
+  --font-geist-sans: Geist, Arial, Helvetica, sans-serif;
+  --font-geist-mono: GeistMono, monospace;
 }
 
 @theme inline {
@@ -14,13 +17,16 @@
 
 @media (prefers-color-scheme: dark) {
   :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
+    --background: #248021;
+    --foreground: #0b522b;
   }
 }
 
+/* ปรับให้เรียกใช้ตัวแปรจาก @theme หรือใช้ฟอนต์ที่ล้อไปกับระบบ */
 body {
   background: var(--background);
   color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: var(--font-geist-sans);
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
 }
