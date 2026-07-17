@@ -2,13 +2,13 @@ import Link from "next/link";
 
 export default function Navbar() {
   return (
-    <nav className="bg-blue-600 text-white shadow">
+    <nav className="bg-gradient-to-r from-rose-200 via-pink-200 to-purple-200 text-gray-700 shadow-lg">
       <div className="max-w-7xl mx-auto px-4">
         <div className="flex justify-between items-center h-16">
 
           {/* Logo */}
           <Link href="/" className="text-xl font-bold">
-            MyWebsite
+            MyWebsiteWithMumudayz
           </Link>
 
           {/* Menu */}
